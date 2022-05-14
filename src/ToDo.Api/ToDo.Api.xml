@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ToDo.Api</name>
+    </assembly>
+    <members>
+        <member name="M:ToDo.Api.Controllers.v1.ToDoItemController.Get(System.Guid)">
+            <summary>
+            Get a specific TodoItem.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ToDo.Api.Controllers.v1.ToDoListController.Get(System.Guid)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ToDo.Api.Controllers.v1.ToDoListController.Get(ToDo.Application.QueryFilters.GetAllToDoListFilter)">
+            <summary>
+            
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ToDo.Api.Controllers.v1.ToDoListController.Post(ToDo.Application.Handlers.ToDoLists.Commands.CreateToDoList.CreateToDoListCommand)">
+            <summary>
+            Add new ToDoList.
+            </summary>
+            <param name="command"></param>
+            <returns>Created ToDoList</returns>
+        </member>
+        <member name="M:ToDo.Api.Controllers.v1.ToDoListController.Put(System.Guid,ToDo.Application.Models.Dtos.UpdateToDoListDto)">
+            <summary>
+            Add new ToDoList.
+            </summary>
+            <param name="command"></param>
+            <returns>Created ToDoList</returns>
+        </member>
+        <member name="M:ToDo.Api.Controllers.v1.ToDoListController.Delete(System.Guid)">
+            <summary>
+            Add new ToDoList.
+            </summary>
+            <param name="command"></param>
+            <returns>Created ToDoList</returns>
+        </member>
+    </members>
+</doc>
